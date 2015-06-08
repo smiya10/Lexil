@@ -69,7 +69,7 @@ def input_screen():
     f_name = input("Enter a file name: ", )
     if f_name == 'quit': exit()    
     f_hand = file_opener(f_name)
-    if f_hand == 'swallow': input_screen():
+    if f_hand == 'swallow': input_screen()
     else: return f_hand, f_name
 
 f_hand, f_name = input_screen()
